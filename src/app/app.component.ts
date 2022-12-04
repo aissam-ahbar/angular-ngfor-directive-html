@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
+  // Create your collection in your typescript file
   public languages = [
     {
       name: 'Angular',
