@@ -3,8 +3,15 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'ngfor-angular-demo';
+  public languages = [
+    {
+      name: 'Angular',
+    },
+    {
+      name: 'Python',
+    },
+  ];
 }
