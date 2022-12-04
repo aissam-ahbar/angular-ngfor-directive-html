@@ -14,5 +14,8 @@ export class AppComponent {
     {
       name: 'Python',
     },
+    {
+      name: 'C/C++',
+    },
   ];
 }
